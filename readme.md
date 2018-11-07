@@ -10,8 +10,6 @@ __Instructions:__
 * Add "data-src" attribute with real link to image
 
 
-
-###Example###
 ```
 <img class="lazy" src="" data-src="linkToYourImage">
 ```
