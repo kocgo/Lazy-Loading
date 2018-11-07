@@ -1,0 +1,73 @@
+::--webkit-scrollbar {
+  width: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background: #8a6d6d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(25,25,25);
+  border: 1px solid rgb(0,0,0);
+}
+
+.wrapper {
+    height: 200vh;
+    background-color: #eee;
+    position: relative;
+  }
+
+.red {
+  height: 30vh;
+  width: 100%;
+  background-color:red;
+}
+
+.orange {
+  height: 30vh;
+  width: 100%;
+  background-color: orange;
+}
+
+.blue {
+  height: 30vh;
+  width: 100%;
+  background-color: blue;
+}
+
+.salmon {
+  height: 30vh;
+  width: 100%;
+  background-color: salmon;
+}
+
+.pink {
+  height: 20vh;
+  width: 100%;
+  background-color: pink;
+}
+
+
+img {
+  width: 500px;
+}
+
+#testImage {
+  margin: auto;
+  
+}
+
+.lazy {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 30px solid;
+  border-color: orange blue orangered salmon;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}

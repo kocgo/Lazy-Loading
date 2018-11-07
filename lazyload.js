@@ -45,7 +45,7 @@ function elementInViewport(el) {
     let rect = el.getBoundingClientRect();
 
     return (
-        rect.top <= (window.innerHeight) &&
+        rect.top <= (window.innerHeight - 155) &&
         rect.right <= (window.innerWidth)
     )
 }

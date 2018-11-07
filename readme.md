@@ -2,6 +2,7 @@
 
 ### Loads images only when they are close to viewport ###
 
+![](https://media.giphy.com/media/459bOpyy6lAH2pn1Pm/giphy.gif)
 
 __Instructions:__
 * Link lazyload.js to your html
